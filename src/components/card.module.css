@@ -1,0 +1,66 @@
+.container{
+    background-color: rgb(94, 21, 90);
+    width: 400px;
+    height: 180px;
+   position: relative;
+   margin: 1rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   opacity: 0.9;
+   border-radius: 1.5rem;
+   color: black;
+  
+   
+}
+
+.button{
+    position: absolute;
+    top: -7px;
+    right: 2px;
+    font-size: xx-large;
+    background-color:transparent;
+    
+    border-color: transparent;
+    border-radius: 9999px;
+    padding: 0;
+    margin: 0;
+   
+}
+
+.button:hover{
+    
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    transition: 400ms;
+}
+
+.data{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    
+}
+
+.max{
+    position: relative;
+    font-weight: 600;
+    bottom: 2rem;
+    left: 1.5rem;
+    
+    
+    }
+ .min{
+    position: relative;
+    font-weight: 600;
+    bottom: 2rem;
+    left: 1.5rem;
+
+}
+.titulo{
+    position: relative;
+    
+    
+}
